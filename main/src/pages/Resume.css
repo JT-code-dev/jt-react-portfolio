@@ -1,56 +1,107 @@
+body {
+  background-color: #f5f6ea; /* Soft sandy white background */
+  color: #333; /* Default text color for better readability */
+}
+
+.resume {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center horizontally */
+  justify-content: flex-start; /* Align items closer to the top */
+  min-height: 70vh; /* Ensure proper vertical spacing */
+  padding: 50px 20px;
+  background-color: var(--secondary-color); /* Neutral background */
+  color: var(--text-color); /* Dark sand text */
+}
+
+.resume h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-top: 1rem; /* Reduce gap above the title */
+  margin-bottom: 1rem; /* Smaller gap below the title */
+  color: #035068; /* Dark turquoise for main headings */
+}
+
+.resume h3 {
+  font-size: 2rem;
+  margin-top: 20px;
+  color: #035068; /* Dark turquoise for subheadings */
+}
+
+.resume ul {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0;
+}
+
+.resume ul li {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.resume a {
+  color: #035068; /* Dark turquoise for links */
+  font-weight: bold;
+  text-decoration: none;
+  margin-bottom: 2rem;
+}
+
+.resume a:hover {
+  text-decoration: underline;
+}
+
+/* Contact Section Styling (unchanged but kept for reference) */
 .contact {
-    padding: 50px 20px;
-    background-color: var(--secondary-color); /* Neutral background */
-    color: var(--text-color); /* Dark sand text */
-  }
-  
-  .contact h2 {
-    text-align: center;
-    font-size: 2.5rem;
-    margin-bottom: 30px;
-    color: var(--primary-color); /* Light blue heading */
-  }
-  
-  .contact form {
-    max-width: 600px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-  }
-  
-  .contact label {
-    font-size: 1rem;
-    font-weight: bold;
-  }
-  
-  .contact input,
-  .contact textarea {
-    padding: 10px;
-    font-size: 1rem;
-    border: 1px solid var(--text-color); /* Dark sand border */
-    border-radius: 5px;
-    outline: none;
-    transition: border-color 0.3s ease;
-  }
-  
-  .contact input:focus,
-  .contact textarea:focus {
-    border-color: var(--accent-color); /* Pink sand focus */
-  }
-  
-  .contact button {
-    background-color: var(--primary-color); /* Light blue button */
-    color: var(--secondary-color); /* Neutral text */
-    font-size: 1rem;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  .contact button:hover {
-    background-color: var(--accent-color); /* Pink sand on hover */
-  }
-  
+  padding: 50px 20px;
+  background-color: var(--secondary-color); /* Neutral background */
+  color: var(--text-color); /* Dark sand text */
+}
+
+.contact h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: var(--primary-color); /* Light blue heading */
+}
+
+.contact form {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact label {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.contact input,
+.contact textarea {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid var(--text-color); /* Dark sand border */
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.contact input:focus,
+.contact textarea:focus {
+  border-color: var(--accent-color); /* Pink sand focus */
+}
+
+.contact button {
+  background-color: var(--primary-color); /* Light blue button */
+  color: var(--secondary-color); /* Neutral text */
+  font-size: 1rem;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact button:hover {
+  background-color: var(--accent-color); /* Pink sand on hover */
+}

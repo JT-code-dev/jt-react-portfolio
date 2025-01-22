@@ -14,6 +14,7 @@ const Resume = () => {
         <li>CSS</li>
         <li>JavaScript</li>
         <li>TypeScript</li>
+        <li>POSTGRESQL</li>
         <li>React</li>
         <li>Node.js</li>
       </ul>
