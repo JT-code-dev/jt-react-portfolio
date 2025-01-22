@@ -19,49 +19,21 @@ This portfolio was built to showcase my skills, projects, and experience as a so
 - **React Router:** For handling navigation between pages.
 - **CSS:** For custom styling and layout.
 
-## File Structure
-jt-react-portfolio/
-├── public/
-│   └── index.html
-├── src/
-│   ├── assets/
-│   │   ├── game-nap.png
-│   │   ├── employee_tracker.png
-│   │   ├── ReadMeGenJen2.png
-│   │   ├── WeatherDash.png
-│   │   └── JTImage.png
-│   ├── components/
-│   │   ├── Button.jsx
-│   │   ├── Footer.jsx
-│   │   ├── Header.jsx
-│   │   ├── Navigation.jsx
-│   │   └── Project.jsx
-│   ├── pages/
-│   │   ├── AboutMe.jsx
-│   │   ├── Contact.jsx
-│   │   ├── Portfolio.jsx
-│   │   └── Resume.jsx
-│   ├── styles/
-│   │   ├── Header.css
-│   │   ├── Footer.css
-│   │   ├── Project.css
-│   │   ├── Portfolio.css
-│   │   └── index.css
-│   ├── App.jsx
-│   ├── index.jsx
-│   └── vite.config.js
-├── package.json
-├── package-lock.json
-└── README.md
+
+
+## Deployment
+First developed on local server and then finally published on Netlify.
+
 ## Credits
-Developed by Jen Thompson
+Developed by Jennifer H. Thompson
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
 ## Contact
-Feel free to reach out to me through the Contact section of this portfolio or connect with me on:
-LinkedIn
-GitHub
-or at writejthompson@gmail.com
+Feel free to reach out to me through the Contact Form on the ContactMe page within this this portfolio website or connect with me on:
+LinkedIn: https://www.linkedin.com/in/jennifer-thompson-70809b159/
+
+## GitHub
+jt-code-dev
 
