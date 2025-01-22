@@ -1,0 +1,23 @@
+/* Footer Styling */
+footer {
+  background-color: var(--footer-color);
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: auto;
+}
+
+footer a {
+  color: white; /* Ensure link color is white for visibility */
+  text-decoration: none;
+  margin: 0 1rem; /* Add horizontal space between links */
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: var(--hover-color); /* Change color on hover */
+}
+
+  
+  

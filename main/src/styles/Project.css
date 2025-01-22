@@ -1,0 +1,50 @@
+.portfolio {
+    padding: 50px 20px;
+    background-color: #f5f6ea;
+    color: #a28089;
+   
+  }
+  
+  .portfolio h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: var(--accent-color); /* Pink sand heading */
+  }
+  
+  .project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 0 20px;
+  }
+  
+  .project-card {
+    background-color: var(--secondary-color); /* Neutral card background */
+    color: var(--text-color);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.3s ease;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-5px); /* Lift on hover */
+  }
+  
+  .project-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .project-card a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .project-card a:hover {
+    color: var(--accent-color); /* Pink sand on hover */
+  }
+  

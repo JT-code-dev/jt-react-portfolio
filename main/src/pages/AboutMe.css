@@ -1,0 +1,43 @@
+/* About Me Section */
+.about-me {
+  background-color: #f5f6ea; /* Sandy background */
+  padding: 3rem 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* About Me Card */
+.about-me-card {
+  background-color: #fff; /* White card */
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 900px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+/* Image Styling */
+.about-me-image {
+  width: 40%;
+  max-height: 100%;
+  object-fit: cover;
+  border-right: 3px solid #38027f; /* Optional: Purple border between image and text */
+}
+
+/* Content Styling */
+.about-me-content {
+  padding: 2rem;
+  flex: 1;
+}
+
+.about-me-content h2 {
+  color: #035068; /* Teal */
+  margin-bottom: 1rem;
+}
+
+.about-me-content p {
+  color: #242424; /* Dark text */
+  line-height: 1.6;
+}

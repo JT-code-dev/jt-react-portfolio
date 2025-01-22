@@ -1,0 +1,67 @@
+/* Header styling */
+.header {
+  background-color: #b3e6ff; /* Light sky blue */
+  color: #242424; /* Dark text */
+  text-align: center;
+  padding: 1.5rem 1rem;
+  position: relative;
+}
+
+/* Header text */
+.header h1 {
+  color: #035068; /* Teal text color for the header title */
+  font-size: 3rem; /* Larger text size for emphasis */
+  margin: 0; /* Remove default margin */
+}
+
+.header p {
+  color: #38027f; /* Dark purple for the subtitle */
+  font-size: 1.2rem; /* Smaller text size for subtitle */
+}
+
+/* Attach navigation bar at the base of the header */
+
+.navigation {
+  display: flex;
+  justify-content: center; /* Center links horizontally */
+  align-items: center;
+  background-color: #ffa8b6; /* Pink for navigation bar */
+  padding: 0.5rem 0; /* Add padding for height */
+  border-top: 2px solid #b3e6ff; /* Border to separate header */
+  position: absolute;
+  bottom: 0; /* Stick it to the bottom of the header */
+  width: 100%;
+  list-style: none; /* Remove bullets */
+}
+
+.navigation ul {
+  display: flex; /* Display links horizontally */
+  padding: 0;
+  margin: 0;
+}
+
+.navigation li {
+  margin: 0 1rem; /* Space between navigation links */
+}
+
+.navigation a {
+  color: #38027f; /* Purple text color for links */
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.navigation a:hover,
+.navigation a.active {
+  color: #035068; /* Teal color for active and hover links */
+}
+
+@media (max-width: 768px) {
+  .navigation ul {
+    flex-direction: column; /* Stack links vertically on small screens */
+  }
+  .navigation li {
+    margin: 0.5rem 0; /* Add spacing between links */
+  }
+}

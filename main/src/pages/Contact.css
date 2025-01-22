@@ -1,0 +1,62 @@
+/* Contact Page Styling */
+.contact {
+  background-color: #f5f6ea; /* Sandy off-white background */
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+/* Contact Heading */
+.contact h2 {
+  color: #035068 !important; /* Teal color matching the header name */
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+/* Form Styling */
+.contact form {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem; /* Adds space between form elements */
+}
+
+.contact label {
+  font-size: 1rem;
+  color: #242424; /* Dark text */
+  text-align: left;
+  margin-bottom: 0.5rem;
+}
+
+.contact input,
+.contact textarea {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid #38027f; /* Dark purple border */
+  border-radius: 5px;
+  font-size: 1rem;
+  color: #242424;
+  background-color: white; /* Clean white background */
+}
+
+.contact textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+/* Button Styling */
+.contact button {
+  background-color: #035068 !important; /* Teal color matching the header name */
+  color: #f5f6ea; /* Light text color */
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.contact button:hover {
+  background-color: #38027f; /* Dark purple hover color */
+  transform: scale(1.05);
+}
