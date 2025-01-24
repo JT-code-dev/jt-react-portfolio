@@ -6,7 +6,7 @@ const AboutMe = () => {
     <section className="about-me">
       <div className="about-me-card">
         <img
-          src="src/assets/JTimage.png" // Replace with the actual image name
+          src="/assets/JTimage.png" // Replace with the actual image name
           alt="Jen Thompson"
           className="about-me-image"
         />
