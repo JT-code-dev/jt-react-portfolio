@@ -1,6 +1,6 @@
 body {
   background-color: #f5f6ea; /* Soft sandy white background */
-  color: #333; /* Default text color for better readability */
+  color: #56ddf8; /* New color for body text */
 }
 
 .resume {
@@ -9,7 +9,7 @@ body {
   align-items: center; /* Center horizontally */
   justify-content: flex-start; /* Align items closer to the top */
   min-height: 70vh; /* Ensure proper vertical spacing */
-  padding: 50px 20px;
+  padding: 30px 20px; /* Reduced padding to minimize space */
   background-color: var(--secondary-color); /* Neutral background */
   color: var(--text-color); /* Dark sand text */
 }
@@ -17,8 +17,8 @@ body {
 .resume h2 {
   text-align: center;
   font-size: 2.5rem;
-  margin-top: 1rem; /* Reduce gap above the title */
-  margin-bottom: 1rem; /* Smaller gap below the title */
+  margin-top: 10px; /* Reduced space above the title */
+  margin-bottom: 10px; /* Smaller gap below the title */
   color: #035068; /* Dark turquoise for main headings */
 }
 
@@ -26,6 +26,43 @@ body {
   font-size: 2rem;
   margin-top: 20px;
   color: #035068; /* Dark turquoise for subheadings */
+}
+
+/* General Card Styling */
+.card {
+  background-color: #fff; /* White background for cards */
+  border: 2px solid #035068; /* Turquoise border for consistency */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+  color: #333; /* Neutral text color */
+  font-size: 1.2rem;
+}
+
+/* Resume Download Card */
+.resume-download {
+  max-width: 300px;
+  margin: 20px auto; /* Center the card */
+}
+
+/* Proficiency Cards Layout */
+.proficiency-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr; /* Center large card with smaller ones on each side */
+  gap: 20px; /* Space between cards */
+  margin-top: 30px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.large-card {
+  grid-column: 2 / 3; /* Center card spans one column */
+}
+
+.small-card {
+  grid-column: span 1; /* Smaller cards span one column each */
 }
 
 .resume ul {
@@ -47,61 +84,4 @@ body {
 
 .resume a:hover {
   text-decoration: underline;
-}
-
-/* Contact Section Styling (unchanged but kept for reference) */
-.contact {
-  padding: 50px 20px;
-  background-color: var(--secondary-color); /* Neutral background */
-  color: var(--text-color); /* Dark sand text */
-}
-
-.contact h2 {
-  text-align: center;
-  font-size: 2.5rem;
-  margin-bottom: 30px;
-  color: var(--primary-color); /* Light blue heading */
-}
-
-.contact form {
-  max-width: 600px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-}
-
-.contact label {
-  font-size: 1rem;
-  font-weight: bold;
-}
-
-.contact input,
-.contact textarea {
-  padding: 10px;
-  font-size: 1rem;
-  border: 1px solid var(--text-color); /* Dark sand border */
-  border-radius: 5px;
-  outline: none;
-  transition: border-color 0.3s ease;
-}
-
-.contact input:focus,
-.contact textarea:focus {
-  border-color: var(--accent-color); /* Pink sand focus */
-}
-
-.contact button {
-  background-color: var(--primary-color); /* Light blue button */
-  color: var(--secondary-color); /* Neutral text */
-  font-size: 1rem;
-  padding: 10px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.contact button:hover {
-  background-color: var(--accent-color); /* Pink sand on hover */
 }
